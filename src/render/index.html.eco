@@ -6,3 +6,21 @@ keywords: "Keanu, MNT, Mooren Naaimachines Tegelen, naaimachine"
 isPage: true
 ---
 <h1>Home</h1>
+<h3>Mooren Naaimachines Tegelen</h3>
+<br>
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <h2>Kolom 1</h2>
+        <h5>text</h5>
+        <img src="/img/tijden.jpg" class="tijden" alt="tijden">
+    </div>
+    <div class="column" style="background-color:#bbb;">
+        <h2>Kolom 2</h2>
+        <h5>text</h5>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+        <h2>Kolom 3</h2>
+        <h5>text</h5>
+        <img src="/img/etalage.jpg" class="etalage" alt="heuj">
+    </div>
+</div>
