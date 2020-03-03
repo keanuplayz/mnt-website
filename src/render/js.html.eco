@@ -1,0 +1,47 @@
+---
+title: "MNT"
+description: "Mooren Naaimachines Tegelen"
+layout: "default"
+keywords: "Keanu, MNT, Mooren Naaimachines Tegelen, naaimachine"
+isPage: true
+---
+<div id="homes"></div>
+<div id="test"></div>
+<script>
+    var homes = [{
+        "h_id": "3",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75201",
+        "price": "162500"
+    }, {
+        "h_id": "4",
+        "city": "Bevery Hills",
+        "state": "CA",
+        "zip": "90210",
+        "price": "319250"
+    }, {
+        "h_id": "5",
+        "city": "New York",
+        "state": "NY",
+        "zip": "00010",
+        "price": "962500"
+    },
+    {
+        "h_id": "6",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "18482",
+        "price": "132700"
+    }];
+
+    const test = {
+        "one": "test",
+        "two": "tester",
+        "three": "testerest"
+    }
+
+    homes.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+    document.getElementById("homes").innerHTML = homes;
+    document.getElementById("test").innerHTML = test.two;
+</script>
