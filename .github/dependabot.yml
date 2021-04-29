@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "14:00"
+    timezone: Europe/Amsterdam
+  open-pull-requests-limit: 99
+  reviewers:
+  - keanuplayz
+  assignees:
+  - keanuplayz
+  labels:
+  - Dependabot
+  ignore:
+  - dependency-name: docpad
+    versions:
+    - "> 6.78.4"
